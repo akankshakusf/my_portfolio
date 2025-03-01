@@ -451,32 +451,31 @@ nav .right a span {
 
 /* FOOTER */
 footer {
-  background-color: #f9f9f9;
-  padding: 40px 20px;
-  text-align: center;
-  border-top: 1px solid #ddd;
-  margin-top: 50px;
+  text-align: center; /* Center-align content */
+  padding: 10px 0; /* Minimal padding */
+  margin-top: 50px; /* Space above the footer */
 }
 
 footer .social-links {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Space between social links and text */
 }
 
 footer .social-links a {
-  color: #333;
-  font-size: 24px;
-  transition: color 0.3s ease;
+  color: #333; /* Default icon color */
+  font-size: 24px; /* Icon size */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth hover effect */
 }
 
 footer .social-links a:hover {
-  color: #0077b5;
+  color: #0077b5; /* Icon color on hover */
 }
 
 footer p {
-  font-size: 14px;
-  color: #555;
-  margin: 0;
+  font-size: 14px; /* Text size */
+  color: #555; /* Text color */
+  margin: 0; /* Remove default margin */
 }
