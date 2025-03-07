@@ -32,14 +32,13 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  padding: 0 50px;
+  padding: 0 10px;
   height: 80px;
 }
 
 nav .left a {
   color: var(--text-color);
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -59,15 +58,17 @@ nav .right a span {
   margin-left: 5px;
 }
 
+
 /* SECTION 1: Hero */
 .hero-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 10px;
   margin: 50px 0;
   margin-bottom: 100px;
   gap: 40px;
+  margin-top: 100px;
 }
 
 .hero-section .text {
@@ -110,8 +111,9 @@ nav .right a span {
 
 /* SECTION 2: Skills */
 .skills-section {
-  padding: 0 50px;
+  padding: 0 10px;
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .skills-section h2 {
@@ -137,7 +139,7 @@ nav .right a span {
   gap: 10px;
 
   width: 200px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin: 10px;
   border: 1.5px solid #d3d3d3;
   border-radius: 5px;
@@ -158,7 +160,7 @@ nav .right a span {
 
 /* SECTION 3: Projects */
 .projects-section {
-  padding: 0 50px;
+  padding: 0 10px;
   margin-bottom: 100px;
 }
 
@@ -183,7 +185,7 @@ nav .right a span {
   background: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -227,7 +229,7 @@ nav .right a span {
 }
 /* SECTION 4: Contact */
 .contact-section {
-  padding: 0 50px;
+  padding: 0 10px;
   margin-bottom: 100px;
 }
 
@@ -312,7 +314,7 @@ nav .right a span {
 @media (max-width: 600px) {
   /* NAVBAR */
   nav {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   nav .right a {
@@ -331,7 +333,7 @@ nav .right a span {
 
   /* SECTION 1: Hero */
   .hero-section {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   .hero-section .text h2 {
@@ -340,7 +342,7 @@ nav .right a span {
 
   /* SECTION 2: Skills */
   .skills-section {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   .skills-section .cells .cell span {
@@ -349,12 +351,12 @@ nav .right a span {
 
   /* SECTION 3: Testimony */
   .testimony-section {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   /* SECTION 4: Contact */
-  .contact-section {
-    padding: 0 20px;
+  .project-section {
+    padding: 0 10px;
   }
 }
 
@@ -367,7 +369,7 @@ nav .right a span {
 .resume-download a {
   display: inline-flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: #28a745; /* Green color for download button */
   color: white;
   text-decoration: none;
@@ -385,7 +387,7 @@ nav .right a span {
 
 /* SECTION 3: Experience */
 .experience-section {
-  padding: 0 50px;
+  padding: 0 10px;
   margin-bottom: 100px;
 }
 
@@ -410,7 +412,7 @@ nav .right a span {
   background: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -479,3 +481,4 @@ footer p {
   color: #555; /* Text color */
   margin: 0; /* Remove default margin */
 }
+
